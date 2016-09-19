@@ -1,0 +1,278 @@
+<html>
+	<head>
+		<title>Личная страница Щевьевой Алены</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="description" content="Личная страница и контакты">
+		<!-- Bootstrap Core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<style>
+			table{
+				border-collapse:separate;
+				border-spacing:5px;
+			}
+            td{
+                width: 170px; 
+                height:170px; 
+                border: solid 1px silver; 
+                text-align:center;
+            }
+        </style>
+	</head>
+	<body>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+				<div class="container"> 
+					<div class="navbar-header"> 
+						<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a> 
+					</div> 
+					<nav class="collapse navbar-collapse" id="bs-navbar"> 
+						<ul class="nav navbar-nav navbar-right">
+							<li><a>Личная страница Алёны Щевьёвой</a></li>
+							<li> <a href="">Страница курса</a> </li> 
+							<li> <a href="">Страница группы</a> </li> 
+						</ul>
+					</nav> 
+				</div>
+		</nav>
+
+		<header style="background-color:#FFF0F5; padding-top:55px; padding-bottom:10px; padding-left:10px; padding-right:10px; "> 
+			<table>
+				<tr>
+					<td rowspan="2"><!--1<img src="pics/dawn.jpg"/>-->
+					 <div id="wrapper_vertical">
+		
+    <link href="carousel/css/style1.css" media="all" rel="stylesheet" type="text/css">
+    <link href="carousel/css/carousel.css" media="all" rel="stylesheet" type="text/css">
+	<script src="carousel/js/modernizr.js"></script>
+	<script type="text/javascript" src="carousel/js/jquery.min.js"></script>
+	<script type="text/javascript" src="carousel/js/jquery.jcarousel.min.js"></script>
+			
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel">
+                        <ul class="clearfix">
+                            <li><img src="pics/dawn.jpg"/></li>
+                            <li><img src="pics/dawn2.jpg"/></li>
+                            <li><img src="pics/dawn3.jpg"/></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                    <p class="jcarousel-pagination"></p>
+                </div>
+			
+    <script>
+        $(function () {
+            var jcarousel = $('.jcarousel');
+            jcarousel
+                    .on('jcarousel:reload jcarousel:create', function () {
+                        jcarousel.jcarousel('items').width(jcarousel.innerWidth());
+                    })
+                    .jcarousel({
+						animation: {
+							duration: 800,
+							easing:   'linear',
+							complete: function() {
+							}
+						}
+                        wrap: 'circular',
+                        transitions: Modernizr.csstransitions ? {
+                            transforms:   Modernizr.csstransforms,
+                            transforms3d: Modernizr.csstransforms3d,
+                            easing:       'ease'
+                        } : false
+                    });
+
+            $('.jcarousel-control-prev')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .jcarouselControl({
+                        target: '-=1'
+                    });
+
+            $('.jcarousel-control-next')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselControl({
+                        target: '+=1'
+                    });
+
+            $('.jcarousel-pagination')
+                    .on('jcarouselpagination:active', 'a', function() {
+                        $(this).addClass('active');
+                    })
+                    .on('jcarouselpagination:inactive', 'a', function() {
+                        $(this).removeClass('active');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselPagination({
+                        item: function(page) {
+                            return '<a href="#' + page + '">' + page + '</a>';
+                        }
+                    });
+        });
+    </script>
+	
+	<!-- end needful -->
+	
+        </div>
+					</td>
+					<td><!--2--><img src="pics/good_luck.jpg"/></td>
+					<td><!--3--><img src="pics/tea.jpg"/> </td>
+					<td colspan="2"><!--4<img src="pics/before_dawn1.jpg"/>-->
+									<!--carousel-->
+								        <div id="wrapper">
+		
+    <link href="carousel/css/style1.css" media="all" rel="stylesheet" type="text/css">
+    <link href="carousel/css/carousel.css" media="all" rel="stylesheet" type="text/css">
+	<script src="carousel/js/modernizr.js"></script>
+	<script type="text/javascript" src="carousel/js/jquery.min.js"></script>
+	<script type="text/javascript" src="carousel/js/jquery.jcarousel.min.js"></script>
+			
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel">
+                        <ul class="clearfix">
+                            <li><img src="pics/before_dawn1.jpg"/></li>
+                            <li><img src="pics/before_dawn2.jpg"/></li>
+                            <li><img src="pics/before_dawn3.jpg"/></li>
+							<li><img src="pics/before_dawn5.jpg"/></li>
+							<li><img src="pics/before_dawn4.jpg"/></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                    <p class="jcarousel-pagination"></p>
+                </div>
+			
+    <script>
+        $(function () {
+            var jcarousel = $('.jcarousel');
+
+            jcarousel
+                    .on('jcarousel:reload jcarousel:create', function () {
+                        jcarousel.jcarousel('items').width(jcarousel.innerWidth());
+                    })
+                    .jcarousel({
+                        wrap: 'circular',
+                        transitions: Modernizr.csstransitions ? {
+                            transforms:   Modernizr.csstransforms,
+                            transforms3d: Modernizr.csstransforms3d,
+                            easing:       'ease'
+                        } : false
+                    });
+
+            $('.jcarousel-control-prev')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .jcarouselControl({
+                        target: '-=1'
+                    });
+
+            $('.jcarousel-control-next')
+                    .on('jcarouselcontrol:active', function() {
+                        $(this).removeClass('inactive');
+                    })
+                    .on('jcarouselcontrol:inactive', function() {
+                        $(this).addClass('inactive');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselControl({
+                        target: '+=1'
+                    });
+
+            $('.jcarousel-pagination')
+                    .on('jcarouselpagination:active', 'a', function() {
+                        $(this).addClass('active');
+                    })
+                    .on('jcarouselpagination:inactive', 'a', function() {
+                        $(this).removeClass('active');
+                    })
+                    .on('click', function(e) {
+                        e.preventDefault();
+                    })
+                    .jcarouselPagination({
+                        item: function(page) {
+                            return '<a href="#' + page + '">' + page + '</a>';
+                        }
+                    });
+        });
+    </script>
+	
+        </div>
+					</td>
+					<td><!--5--><img src="pics/snail.jpg"/></td>
+					<td><!--6--><img src="pics/backpack.jpg" /></td>
+				</tr>
+				<tr>
+					<td style="background-color: #FFE4E1; font-size: 18;"><!--7--><i>♫</br>These are </br> a few </br> of my favourite </br> things</br>♫</i></td>
+					<td rowspan="2"><!--8--><img src="pics/whale.png"/></td>
+					<td><!--9--><img src="pics/calluna.jpg"/></td>
+					<td><!--10--><img src="pics/temari1.jpg"/></td>
+					<td rowspan="2" colspan="2"><!--11--><img src="pics/me.jpg"/></td>
+				</tr>
+				<tr>
+					<td><!--12--> <img src="pics/humor.jpg"/></td>
+					<td><!--13--><img src="pics/scarf.jpg"/></td>
+					<td><!--14--><img src="pics/aulunko.jpg"/></td>
+					<td><!--15--> <img src="pics/cup.jpg"/></td>
+				</tr>
+			</table>
+		</header>
+		<section id="portfolio">
+			<div class="container">
+				<div class="col-md-3">
+				<article>
+					<h3>Место учебы</h2>
+					<p>НИУ ВШЭ</p>
+				</article>
+				<article>
+					<h3>Школа</h2>
+					<p>Лицей Информационных Технологий №1533</p>
+				</article>
+				</div>
+				<div class="col-md-6">
+				<article>
+					<h3>Обо мне</h2>
+					<p>Меня зовут, как вы уже могли догадаться, <b>Алёна</b>, я из <b>Москвы</b> и мой день рождения <b>13го июля</b>. В общем-то, на этом сухие факты заканчиваются. <br />
+					А если не о сухих фактах, то я люблю разного вида <b>рукоделие</b>, <b>цветы</b> и <b>скандинавские страны</b>. Или пейзажи скандинавских стран — сочетание моря, гор и суровой северной природы, на мой взгляд, действительно волшебно.<br />
+					Мне нравятся <b>детективы</b> и немного <b>фэнтези</b>, <b>фантастика</b>. Мои музыкальные предпочтения довольно трудно перечислить, чтобы не забыть ничего, но моим бессменным фаворитом остается <b>фолк</b>, фолк-рок и вариации на тему.<br />
+				</article>
+				</div>
+			<div class="col-md-3">
+				<h3>Мои контакты</h3>
+						<ul>
+							<li><a href="https://vk.com/id114147266">VK</a></li>
+							<li><a href="https://www.facebook.com/alena.sch.1">Facebook</a></li>
+						</ul>
+				</div>
+			</div>
+		</section>
+		<footer class="bs-docs-footer"> 
+			<div class="container"> 
+				<p style="text-align:right; ">&copy; А. Щевьева, 2016</p> 
+			</div>
+		</footer>
+	</body>
+</html>
