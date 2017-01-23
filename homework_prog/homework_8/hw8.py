@@ -35,15 +35,17 @@ def guess_word(word):
 
 
 def game(d):
-    ask = ''
+    num_check = 0
     for k in d:
         print('Подсказка! {0} ...'.format(random.choice(d[k])))
         guess_word(k)
+        num_check += 1
+        if num_check == len(d):
+            print('Это было последнее слово. Приходите еще')
+            break
         ask = input('Хотите попробовать еще раз? Введите только "да" или "нет": ')
         if ask == 'нет':
             break
-    if ask == 'да':
-        print('Жаль, только слова уже кончились. Приходите еще')
 
 def main():
     d = get_words()
