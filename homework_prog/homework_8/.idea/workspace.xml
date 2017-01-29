@@ -37,7 +37,7 @@
       <file leaf-file-name="hw8.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="15" selection-start="782" selection-end="782" vertical-scroll-proportion="0.3392226" vertical-offset="454" max-vertical-offset="1020">
+            <state line="38" column="15" selection-start="782" selection-end="782" vertical-scroll-proportion="0.35036495" vertical-offset="454" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -66,10 +66,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1294" />
-    <option name="height" value="699" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1279" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -435,15 +435,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1294" height="699" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1279" height="681" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2456964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24861442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5827703" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -486,7 +486,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="15" selection-start="782" selection-end="782" vertical-scroll-proportion="0.3392226" vertical-offset="454" max-vertical-offset="1020">
+        <state line="38" column="15" selection-start="782" selection-end="782" vertical-scroll-proportion="0.35036495" vertical-offset="454" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
