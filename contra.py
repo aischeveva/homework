@@ -46,9 +46,10 @@ def bigramms():
                     for indx, word in enumerate(f3):
                         try:
                             if 'A' in word[0]:
-                                if 'S' and 'gen' in word[0]:
-                                    if 'gen' in f3[indx + 1][0]:
-                                        fout.write('%s %s \n' %(word[1], f3[indx + 1][1]))
+                                if 'gen' in word[0]:
+                                    if 'S' in f3[indx + 1][0]:
+                                        if 'gen' in f3[indx + 1][0]:
+                                            fout.write('%s %s \n' %(word[1], f3[indx + 1][1]))
                         except IndexError:
                             temp = False
 
