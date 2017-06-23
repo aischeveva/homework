@@ -3,7 +3,7 @@ import re
 
 
 def count_words():
-    with open('answer1.txt', 'w') as fout:
+    with open('answer1.txt', 'w', encoding='utf-8') as fout:
         for root, dirs, files in os.walk('./news'):
             for f in files:
                 count = 0
@@ -16,7 +16,7 @@ def count_words():
 
 
 def annot():
-    with open('answer2.csv', 'w') as fout:
+    with open('answer2.csv', 'w', encoding='utf-8') as fout:
         fout.write('Название файла \t Автор \t Дата создания')
         for root, dirs, files in os.walk('./news'):
             for f in files:
@@ -31,7 +31,7 @@ def annot():
 
 
 def bigramms():
-    with open('answer3.txt', 'w') as fout:
+    with open('answer3.txt', 'w', encoding='utf-8') as fout:
         for root, dirs, files in os.walk('./news'):
             for f in files:
                 with open(os.path.join(root, f), 'r') as fin:
